@@ -16,9 +16,10 @@
   },
   "usage": {
     "pagesUsing": [
-      "/prospect/be-recommended/index"
+      "/prospect/be-recommended/index",
+      "/index"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2025-11-01T08:52:00.000Z"
+    "reuseCount": 3,
+    "lastUsed": "2025-11-01T10:30:00.000Z"
   }
 }

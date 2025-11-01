@@ -13,5 +13,12 @@
     ".carousel": ".carousel-hero",
     ".carousel-slides": ".carousel-hero-slides",
     ".carousel-slide": ".carousel-hero-slide"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2025-11-01T10:30:00.000Z"
   }
 }

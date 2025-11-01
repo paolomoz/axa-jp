@@ -13,5 +13,12 @@
     ".cards": ".cards-product",
     ".cards-card-image": ".cards-product-card-image",
     ".cards-card-body": ".cards-product-card-body"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2025-11-01T10:30:00.000Z"
   }
 }

@@ -12,5 +12,12 @@
   "cssClassReplacements": {
     ".columns": ".columns-strength",
     ".columns-img-col": ".columns-strength-img-col"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2025-11-01T10:30:00.000Z"
   }
 }

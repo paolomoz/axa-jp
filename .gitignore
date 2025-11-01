@@ -1,5 +1,6 @@
 .hlx/*
 coverage/*
+content/*
 logs/*
 node_modules/*
 
