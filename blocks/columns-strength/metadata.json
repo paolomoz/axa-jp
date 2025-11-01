@@ -1,0 +1,16 @@
+{
+  "name": "columns-strength",
+  "description": "Columns variant for displaying content strengths or features in a side-by-side layout",
+  "visualCharacteristics": {
+    "layout": "Flexible columns that stack on mobile, side-by-side on desktop (>900px)",
+    "columnStructure": "Equal-width columns with optional images",
+    "imageHandling": "Full-width images in dedicated image columns",
+    "spacing": "2rem gap between columns on desktop"
+  },
+  "usageContext": "Use for displaying key features, benefits, or strengths with optional supporting images",
+  "baseBlock": "columns",
+  "cssClassReplacements": {
+    ".columns": ".columns-strength",
+    ".columns-img-col": ".columns-strength-img-col"
+  }
+}

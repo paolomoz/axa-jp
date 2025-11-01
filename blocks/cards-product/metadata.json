@@ -1,0 +1,17 @@
+{
+  "name": "cards-product",
+  "description": "Product cards variant for displaying product offerings in a grid layout",
+  "visualCharacteristics": {
+    "layout": "Responsive grid with auto-fill columns (min 300px)",
+    "cardStructure": "Image at top with 4:3 aspect ratio, content below",
+    "styling": "Border and background color with consistent spacing",
+    "imageHandling": "Optimized pictures with object-fit cover"
+  },
+  "usageContext": "Use for displaying insurance products, service offerings, or product categories in a grid",
+  "baseBlock": "cards",
+  "cssClassReplacements": {
+    ".cards": ".cards-product",
+    ".cards-card-image": ".cards-product-card-image",
+    ".cards-card-body": ".cards-product-card-body"
+  }
+}

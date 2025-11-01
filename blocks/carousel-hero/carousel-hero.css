@@ -1,0 +1,136 @@
+.carousel-hero-wrapper {
+  position: relative;
+}
+
+.carousel-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-hero-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll;
+  scrollbar-width: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-hero-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-hero-slide {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.carousel-hero-slide > * {
+  flex-shrink: 0;
+}
+
+.carousel-hero-slide-content {
+  padding: 1rem;
+}
+
+.carousel-hero-slide-image picture {
+  display: flex;
+}
+
+.carousel-hero-slide-image img {
+  width: 100%;
+}
+
+.carousel-hero-slide-indicators {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  list-style: none;
+  margin: 0;
+}
+
+.carousel-hero-slide-indicator button {
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: currentcolor;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.carousel-hero-slide-indicator button span {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.carousel-hero-slide-indicator button[disabled] {
+  opacity: 1;
+  cursor: default;
+}
+
+.carousel-hero-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.carousel-hero-navigation-buttons button {
+  pointer-events: all;
+  margin: 1rem;
+  border: none;
+  border-radius: 50%;
+  background-color: currentcolor;
+  opacity: 0.7;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.carousel-hero-navigation-buttons button::after {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  content: "";
+  display: inline-block;
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.carousel-hero-navigation-buttons .slide-prev::after {
+  transform: translate(-25%, -50%) rotate(135deg);
+}
+
+.carousel-hero-navigation-buttons .slide-next::after {
+  transform: translate(-75%, -50%) rotate(-45deg);
+}
+
+@media (width >= 600px) {
+  .carousel-hero-slide {
+    flex-direction: row;
+  }
+
+  .carousel-hero-slide > * {
+    flex: 1;
+  }
+}

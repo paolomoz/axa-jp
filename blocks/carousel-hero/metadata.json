@@ -1,0 +1,17 @@
+{
+  "name": "carousel-hero",
+  "description": "Hero carousel variant for full-width hero sections with image slideshow and navigation controls",
+  "visualCharacteristics": {
+    "layout": "Full-width carousel with horizontal scrolling slides",
+    "navigation": "Previous/next buttons and dot indicators",
+    "slideStructure": "Each slide contains image and content sections side-by-side on desktop, stacked on mobile",
+    "transitions": "Smooth scroll snapping between slides"
+  },
+  "usageContext": "Use for hero sections at the top of pages that need to showcase multiple messages or campaigns with visual impact",
+  "baseBlock": "carousel",
+  "cssClassReplacements": {
+    ".carousel": ".carousel-hero",
+    ".carousel-slides": ".carousel-hero-slides",
+    ".carousel-slide": ".carousel-hero-slide"
+  }
+}

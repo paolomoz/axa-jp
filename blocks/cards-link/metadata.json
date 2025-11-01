@@ -1,0 +1,24 @@
+{
+  "name": "cards-link",
+  "description": "Link cards variant for displaying clickable content cards with images and descriptions",
+  "visualCharacteristics": {
+    "layout": "Responsive grid with auto-fill columns (min 300px)",
+    "cardStructure": "Image at top with 4:3 aspect ratio, content below",
+    "styling": "Border and background color with consistent spacing",
+    "imageHandling": "Optimized pictures with object-fit cover"
+  },
+  "usageContext": "Use for displaying news items, blog posts, resources, or any clickable content cards with images",
+  "baseBlock": "cards",
+  "cssClassReplacements": {
+    ".cards": ".cards-link",
+    ".cards-card-image": ".cards-link-card-image",
+    ".cards-card-body": ".cards-link-card-body"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/prospect/be-recommended/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2025-11-01T08:52:00.000Z"
+  }
+}
